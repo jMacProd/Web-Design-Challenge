@@ -27,6 +27,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
+      <!-- Solution for alligning menu to the right <ul class="navbar-nav ml-auto"> - https://www.geeksforgeeks.org/how-to-align-navbar-items-to-the-right-in-bootstrap-4/-->
       <ul class="navbar-nav ml-auto">
         
         <li class="nav-item dropdown active">
@@ -99,10 +100,24 @@
             <div class="col-md-4">
                 <h2>Visualisation</h1>
                 <hr>
-                <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="150" style="float:left">
-                <img src="assets/Lat_vs_Cloud.png" alt="Latitude versus cloudiness scatterplot" width="150" style="float:left">
-                <img src="assets/Lat_vs_Humid.png" alt="Latitude versus humidy scatterplot" width="150" style="float:left">
-                <img src="assets/Lat_vs_Wind.png" alt="Latitude versus wind speed scatterplot" width="150" style="float:left">
+                
+                <div class="row justify-content-center">
+                    <a href="plotTemp.html">
+                    <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="150" style="align:center">
+                    </a>
+
+                    <a href="plotCloud.html">
+                    <img src="assets/Lat_vs_Cloud.png" alt="Latitude versus cloudiness scatterplot" width="150">
+                    </a>
+                    
+                    <a href="plotHumid.html">
+                    <img src="assets/Lat_vs_Humid.png" alt="Latitude versus humidy scatterplot" width="150">
+                    </a>
+
+                    <a href="plotWind.html">
+                    <img src="assets/Lat_vs_Wind.png" alt="Latitude versus wind speed scatterplot" width="150">
+                    </a>
+                </div>
 
             </div>
 
