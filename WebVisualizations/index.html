@@ -7,10 +7,68 @@
 
     <title>Climate Visualisation</title>
 
+    <!-- Bring in local CCS file -->
+    <link rel="stylesheet" href="style.css">
+    
     <!-- Bring in bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-     <!-- Bring in local CCS file -->
-     <link rel="stylesheet" href="style.css">
-
 </head>
+
+<body>
+    <h1>Latitude</h1>
+    <!-- Our rows function in containers (grid created). -->
+    <div class="container">
+
+        <!-- Our columns function in rows. -->
+        <div class="row">
+
+            <!-- Explanation of project - Two third of screen (4/12) -->
+            <div class="col-md-8">
+
+                <h1>Summary: Latitude vs. X</h1>
+                <hr>
+
+                <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="200" style="float:left">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Duis non luctus diam, vel consequat massa. 
+                    Fusce non risus eget ante viverra mollis.
+                </p>
+
+                <p>
+                    Donec tincidunt nibh ac consequat ultricies. 
+                    Praesent ultrices, augue at molestie tincidunt, 
+                    mi quam cursus ante, 
+                    et lobortis augue tortor a mauris. 
+                    Praesent ac leo in nunc vulputate vulputate quis sed eros. 
+                    Cras maximus quam vitae molestie vulputate. 
+                    Duis sem diam, ultricies at dapibus quis, rutrum eget ligula. 
+                    Maecenas a magna orci. 
+                    Fusce ullamcorper metus vel ultrices sodales.
+                </p>
+
+            </div>
+
+
+
+            
+            <!-- Sidebar - Two third of screen (4/12) -->
+            <div class="col-md-4">
+                <h2>Visualisation</h1>
+                <hr>
+                <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="150" style="float:left">
+                <img src="assets/Lat_vs_Cloud.png" alt="Latitude versus cloudiness scatterplot" width="150" style="float:left">
+                <img src="assets/Lat_vs_Humid.png" alt="Latitude versus humidy scatterplot" width="150" style="float:left">
+                <img src="assets/Lat_vs_Wind.png" alt="Latitude versus wind speed scatterplot" width="150" style="float:left">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
