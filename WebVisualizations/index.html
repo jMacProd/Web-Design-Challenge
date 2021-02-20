@@ -68,24 +68,23 @@
                 <h2 class="h2">Summary: Latitude vs. X</h2>
                 <hr>
 
-                <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="200" style="float:left">
+                <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="200" style="float:left; margin-right: 6px; margin-bottom: 6px;">
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Duis non luctus diam, vel consequat massa. 
-                    Fusce non risus eget ante viverra mollis.
+                  The project looks at how distance from the equator impacts the weather by visualising 
+                  four key weather components of cities across the world. 
+                  With a random list of geographic coordinates, Citypy Python library was used to determine 
+                  cities of varying distance from the equator. The OpenWeatherMap API was utilised to create 
+                  a representative model of weather across world cities.
                 </p>
 
                 <p>
-                    Donec tincidunt nibh ac consequat ultricies. 
-                    Praesent ultrices, augue at molestie tincidunt, 
-                    mi quam cursus ante, 
-                    et lobortis augue tortor a mauris. 
-                    Praesent ac leo in nunc vulputate vulputate quis sed eros. 
-                    Cras maximus quam vitae molestie vulputate. 
-                    Duis sem diam, ultricies at dapibus quis, rutrum eget ligula. 
-                    Maecenas a magna orci. 
-                    Fusce ullamcorper metus vel ultrices sodales.
+                  Visualisation of the dataset were created via Matplotlib. Scatterplots showcased the relationship 
+                  between the latitude and each of the weather components - temperature , humidity, cloudiness and wind speed.
+                </p>
+
+                <p>
+                  This site includes the dataset and its visualisations, including any correlations revealed.
                 </p>
 
             </div>
@@ -94,24 +93,24 @@
 
             
             <!-- Sidebar - One third of screen (4/12) -->
-            <div class=" col-xs-12 col-md-4 bg-white my-lg-5 mx-lg-3 p-lg-5">
+            <div class="col-xs-12 col-md-4 bg-white my-lg-5 mx-lg-3 p-lg-5">
                 <h3  class="h3">Visualisation</h3>
                 <hr>
                 
                 <div class="row justify-content-center">
-                    <a href="plotTemp.html">
+                    <a href="plotTemp.html" title="Max Temperature">
                     <img src="assets/Lat_vs_Temp.png" alt="Latitude versus temperature scatterplot" width="150">
                     </a>
 
-                    <a href="plotCloud.html">
+                    <a href="plotCloud.html" title="Cloudiness">
                     <img src="assets/Lat_vs_Cloud.png" alt="Latitude versus cloudiness scatterplot" width="150">
                     </a>
                     
-                    <a href="plotHumid.html">
+                    <a href="plotHumid.html" title="Humidity">
                     <img src="assets/Lat_vs_Humid.png" alt="Latitude versus humidy scatterplot" width="150">
                     </a>
 
-                    <a href="plotWind.html">
+                    <a href="plotWind.html" title="Wind Speed">
                     <img src="assets/Lat_vs_Wind.png" alt="Latitude versus wind speed scatterplot" width="150">
                     </a>
                 </div>

@@ -16,7 +16,11 @@
     font-family: Georgia, serif;
   }
 
-
+  p {
+    font: 14px Helvetica, sans-serif;
+    color:rgb(113, 113, 113);
+    line-height: 200%;
+  }
 
 @media (max-width: 576px) {
     .navbar {
