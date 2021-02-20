@@ -20,34 +20,37 @@
 <body class="bg-light">
 
 <!--NAVIGATION-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand text-white" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav  ml-auto">
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots <span class="sr-only">(current)</span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="plotTemp.html">Max Temperature</a>
-            <a class="dropdown-item" href="plotHumid.html">Humidity</a>
-            <a class="dropdown-item" href="plotCloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="plotWind.html">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="Data.html">Data</a>
-        </li>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand text-white" href="index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-      </ul>
-    </div>
+    <!-- Solution for alligning menu to the right <ul class="navbar-nav ml-auto"> - https://www.geeksforgeeks.org/how-to-align-navbar-items-to-the-right-in-bootstrap-4/-->
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots <span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="plotTemp.html">Max Temperature</a>
+          <a class="dropdown-item" href="plotHumid.html">Humidity</a>
+          <a class="dropdown-item" href="plotCloud.html">Cloudiness</a>
+          <a class="dropdown-item" href="plotWind.html">Wind Speed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Comparison.html">Comparison</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Data.html">Data</a>
+      </li>
+      
+    </ul>
+
+  </div>
 </nav>
 
 
@@ -57,8 +60,8 @@
       <!-- Our columns function in rows. -->
       
       <div class="row">
-        <div class="col-md-12 bg-white">
-          <h1>Data</h1>
+        <div class="col-md-12 bg-white mt-lg-5">
+          <h2 class="h2">Data</h2>
               <hr>
               <p>The following table includes all of the data used for plotting during this project.
               </p>

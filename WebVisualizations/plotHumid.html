@@ -20,34 +20,37 @@
 <body class="bg-light">
 
 <!--NAVIGATION-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand text-white" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots <span class="sr-only">(current)</span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="plotTemp.html">Max Temperature</a>
-            <a class="dropdown-item" href="plotHumid.html">Humidity</a>
-            <a class="dropdown-item" href="plotCloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="plotWind.html">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Data.html">Data</a>
-        </li>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand text-white" href="index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-      </ul>
-    </div>
+    <!-- Solution for alligning menu to the right <ul class="navbar-nav ml-auto"> - https://www.geeksforgeeks.org/how-to-align-navbar-items-to-the-right-in-bootstrap-4/-->
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots <span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="plotTemp.html">Max Temperature</a>
+          <a class="dropdown-item" href="plotHumid.html">Humidity</a>
+          <a class="dropdown-item" href="plotCloud.html">Cloudiness</a>
+          <a class="dropdown-item" href="plotWind.html">Wind Speed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Comparison.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Data.html">Data</a>
+      </li>
+      
+    </ul>
+
+  </div>
 </nav>
 
 
@@ -60,9 +63,9 @@
       <div class="row">
 
           <!-- Explanation of project - Two third of screen (4/12) -->
-          <div class="col-md-8 bg-white">
+          <div class="col-md-7 bg-white my-lg-5 mx-lg-3 p-lg-5">
 
-              <h1>Humidity</h1>
+              <h2 class="h2">Humidity</h2>
               <hr>
 
               <img src="assets/Lat_vs_Humid.png" alt="Latitude versus humidity scatterplot" width="100%">
@@ -91,8 +94,8 @@
 
           
           <!-- Sidebar - Two third of screen (4/12) -->
-          <div class="col-md-4 bg-white">
-            <h2>Visualisation</h2>
+          <div class="col-md-4 bg-white my-lg-5 mx-lg-3 p-lg-5">
+            <h3>Visualisation</h3>
             <hr>
             <div class="row justify-content-center">
 
