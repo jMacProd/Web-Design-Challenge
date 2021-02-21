@@ -1,7 +1,7 @@
 # Web-Design-Challenge
 
-* creating a visualization dashboard website using visualizations obtained from the Latitude vs Weather project. 
-* In building this dashboard, individual pages were created for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. The site will also inlcude a summary landing page, a comparison page of all of the plots and a page to view the data used to build them.
+* Creating a visualization dashboard website using visualizations obtained from the Latitude vs Weather project. 
+* In building this dashboard, individual pages were created for each plot and a means by which to navigate between them. These pages will contain the visualizations and their corresponding explanations. The site will also inlcude a summary landing page, a comparison page of all of the plots and a page to view the data used to build them.
 
 ## Link to site:
 * https://jmacprod.github.io/Web-Design-Challenge/WebVisualizations/index.html
@@ -12,7 +12,7 @@
 ## Technologies:
 * Visual studio code - build basic structure and content of the site in html 
 * Bootstrap 4.3.1 - establish overall responsive CCS framwork and style elemements
-* ccs style sheet - utilised to style some smaller specific elements
+* ccs style sheet - utilised to create media queries and to style some smaller specific elements
 * Python - version 3.6 Jupyter Notebok - read in existing csv dataset and covert to html table 
 * Github pages - publish site
 
@@ -68,18 +68,19 @@
     * An explanation of the project.
     * Sidebar containing preview images of each plot
     * Image linked to relevant visualization page 
-    * Re-worked the png visualations for this project to add further style settings to the plots.
     * Uses a Bootstrap grid - responsive to browser width
 
 * Four visualization pages, each with:
     * A descriptive title and heading tag.
     * The plot/visualization for the selected comparison.
+        * Re-worked the png visualisations for this project to add further style settings to the plots.
     * A paragraph describing the plot and its significance - edited from original project
     * Uses a Bootstrap grid - responsive to browser width
 
 * A comparisons page that:
     * Contains all of the visualizations on the same page to allow visually comparison
     * Uses a Bootstrap grid - responsive to browser width
+    * Each visualistation links to relevant page
 
 * A data page that:
     * Displays a responsive table containing the data used in the visualizations.
