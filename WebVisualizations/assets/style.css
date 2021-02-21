@@ -10,7 +10,6 @@
 }
 
 
-
   h1, h2, h3, h4, h5 {
     color: rgb(68, 174, 174);
     font-family: Georgia, serif;
@@ -22,9 +21,28 @@
     line-height: 200%;
   }
 
+thead tr th {
+  font: 14px Helvetica, sans-serif;
+}
+
+ td {
+  font: 14px Helvetica, sans-serif;
+  color:rgb(113, 113, 113);
+  line-height: 200%;
+ }
+
+
+ tbody tr th {
+  font: 14px Helvetica, sans-serif;
+  color:rgb(113, 113, 113);
+  line-height: 200%;
+ }
+
+
 @media (max-width: 576px) {
     .navbar {
         background-color: rgb(68, 174, 174);
     }
 }
+
 
